@@ -30,7 +30,7 @@
 }
 
 .features-desc {
-  font-weight: 400;
+  font-weight: 500;
   text-align: left;
 }
 
@@ -38,7 +38,8 @@
   .features-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 72px;
+    column-gap: 24px;
     padding: 0 16px;
   }
 
@@ -78,5 +79,9 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+  }
+
+  .features-desc {
+    font-weight: 400;
   }
 }
