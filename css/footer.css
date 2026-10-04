@@ -198,9 +198,11 @@
 
   .footer-container {
     flex-wrap: nowrap;
+    align-items: flex-start;
     justify-content: flex-start;
-    max-width: none;
-    margin: 0;
+    gap: 0;
+    max-width: 1158px;
+    margin: 0 auto;
   }
 
   .footer-logo-wrapper {
@@ -210,5 +212,10 @@
 
   .footer-wrapper {
     margin-right: auto;
+  }
+
+  .footer-subscribe-wrapper {
+    width: auto;
+    margin-top: 0;
   }
 }
